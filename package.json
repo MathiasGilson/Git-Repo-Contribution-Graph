@@ -12,6 +12,7 @@
     ],
     "author": "Mathias Gilson",
     "main": "index.js",
+    "bin": "index.js",
     "license": "MIT",
     "private": false
 }
