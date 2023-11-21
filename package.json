@@ -1,0 +1,17 @@
+{
+    "name": "git-repo-contribution-graph",
+    "version": "1.0.0",
+    "description": "Get the contribution graph of a github repository. Run npx git-repo-contribution-graph from your git repository.",
+    "keywords": [
+        "git",
+        "github",
+        "repo",
+        "analytics",
+        "git blame",
+        "contribution graph"
+    ],
+    "author": "Mathias Gilson",
+    "main": "index.js",
+    "license": "MIT",
+    "private": false
+}
