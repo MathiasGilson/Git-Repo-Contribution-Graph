@@ -1,6 +1,6 @@
 {
     "name": "git-repo-contribution-graph",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Get the contribution graph of a github repository. Run npx git-repo-contribution-graph from your git repository.",
     "keywords": [
         "git",
