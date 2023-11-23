@@ -53,7 +53,7 @@ try {
     let totalContributions = {}
     files.forEach((filePath) => {
         try {
-            const gitBlame = execSync(`git blame --line-porcelain ${filePath}`).toString()
+            const gitBlame = execSync(`git blame --line-porcelain -w -M -C ${filePath}`).toString()
             const fileContributions = parseGitBlame(gitBlame)
             Object.keys(fileContributions).forEach((author) => {
                 if (!totalContributions[author]) {
